@@ -43,5 +43,6 @@ object TreeTesting {
     println("Derivative relative to x:\n " + derive(exp, "x"))
     println("Derivative relative to y:\n " + derive(exp, "y"))
     println("Simplified derivative relative to x:\n " + simplify(derive(exp, "x")))
+    println("Simplified derivative relative to y:\n " + simplify(derive(exp, "y")))
   }
 }
